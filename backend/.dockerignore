@@ -1,0 +1,48 @@
+# .gitignore
+
+# Ignore .env file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+/dist
+/build
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# .dockerignore
+
+# Ignore .env file
+.env
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore node_modules directory
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore build output
+/dist
+/build
+
+# Ignore development and test files
+Dockerfile
+docker-compose.yml
+README.md
