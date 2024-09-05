@@ -1,12 +1,12 @@
 ### 1. 單一職責原則 (Single Responsibility Principle, SRP)
 
 - 每個類別都有明確的單一職責。例如，`Validator` 類別只負責驗證，`CurrencyTransformer` 類別只負責貨幣轉換。
-- 雖然 `OrderService` 類別有多個方法，但它的整體職責是處理訂單相關的邏輯。
+- `OrderService` 類別有多個方法，但它的整體職責是處理訂單相關的邏輯。
 
 ### 2. 開放封閉原則 (Open/Closed Principle, OCP)
 
-- 通過使用策略模式（如 `ValidationStrategy`）和命令模式（如 `CurrencyTransformCommand`），代碼可以在不修改現有類別的情況下擴展新功能。
-- 例如，可以輕易地添加新的驗證策略或貨幣轉換命令，而不需要修改現有的代碼。
+- 通過使用策略模式（如 `ValidationStrategy`）和命令模式（如 `CurrencyTransformCommand`），code 可以在不修改現有類別的情況下擴展新功能。
+- 例如可以輕易地添加新的驗證策略或貨幣轉換命令，而不需要修改現有的code。
 
 ### 3. 里氏替換原則 (Liskov Substitution Principle, LSP)
 
